@@ -6,9 +6,7 @@ import ControllerCard from "./ControllerCard";
 function DesinedCard() {
   return (
     <div className="relative bg-[url('/Bground.jpg')] bg-cover bg-center h-screen rounded-lg shadow-lg p-16 flex justify-center items-center w-full">
-
       <div className="relative w-full flex items-center justify-center">
-
         <div className="w-full flex items-center ml-36">
           <TextCard />
         </div>
@@ -22,7 +20,6 @@ function DesinedCard() {
             className="max-w-sm hover:scale-110 transition-transform duration-300"
           />
         </div>
-
       </div>
     </div>
   );
